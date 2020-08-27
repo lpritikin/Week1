@@ -28,8 +28,8 @@ standard_deviation = df['cnt'].std()
 print(standard_deviation)
 
 # plot the counts ('cnt' column)
-x = df['cnt']
-y = df['instant']
+x = df['instant']
+y = df['cnt']
 plt.plot(x,y)  
 plt.xlabel('Day')   
 plt.ylabel('Count') 
