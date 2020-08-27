@@ -20,11 +20,11 @@ df.describe()
 # calculate the mean and standard deviation of the hourly data counts (the 'cnt' column)
 # mean
 mean = df['cnt'].mean()
-print mean
+print(mean)
 ___
 # standard deviation
 standard_deviation = df['cnt'].std()
-print standard_deviation
+print(standard_deviation)
 
 ___
 
