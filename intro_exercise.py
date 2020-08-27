@@ -22,12 +22,10 @@ df.describe()
 # mean
 mean = df['cnt'].mean()
 print(mean)
-___
+
 # standard deviation
 standard_deviation = df['cnt'].std()
 print(standard_deviation)
-
-___
 
 # plot the counts ('cnt' column)
 day = df[0]
