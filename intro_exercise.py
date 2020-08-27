@@ -9,10 +9,11 @@ import matplotlib.pyplot as plt
 # This data comes from the UCI ML repository:
 # https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset
 # It is the daily number of users from a bike share program
-df = pd.read_csv('day.csv')
+df = pd.read_csv("C:\Users\linds\Documents\GitHub\Week1\day.csv")
 
 # shows a preview of the data
 df.head()
+
 # shows some basic stats of the data
 df.describe()
 
