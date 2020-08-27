@@ -19,10 +19,13 @@ df.describe()
 # Use the examples in the jupyter notebook to help you here.
 # calculate the mean and standard deviation of the hourly data counts (the 'cnt' column)
 # mean
-df['cnt'].mean()
+mean = df['cnt'].mean()
+print mean
 ___
 # standard deviation
-df['cnt'].std()
+standard_deviation = df['cnt'].std()
+print standard_deviation
+
 ___
 
 # plot the counts ('cnt' column)
